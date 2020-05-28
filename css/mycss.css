@@ -20,7 +20,7 @@
     color:#ffc25d;
 }
 .banner-img1{
-    height: 350px;
+    height: 250px;
     width:auto;
     background-image: url('../images/Artboard 1.png');
     background-position: right;
@@ -31,7 +31,7 @@
     height:350px;
     width:350px;
     left:-120px;
-    top:-220px;
+    top:-140px;
     background-image: url('../images/banner1.png');
     background-position: center;
     background-size: cover;
@@ -70,6 +70,15 @@ nav #menu-list{
 nav #menu-list a h6:hover{
     color: #ffc25d;
 }
+ .aboutus-font {
+     font-size: 230%;
+ }
+ .service-font{
+     font-size: 180%;
+ }
+ .plans-font{
+     font-size: 230%;
+ }
 .plan-details li{
     margin-top:12px;
     list-style-image: url('../images/Layer 9.png');
