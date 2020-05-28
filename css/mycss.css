@@ -30,7 +30,7 @@
 .banner-img2{
     height:350px;
     width:350px;
-    left:-160px;
+    left:-120px;
     top:-220px;
     background-image: url('../images/banner1.png');
     background-position: center;
@@ -48,6 +48,12 @@
     background-color: #333647;
     color:#fff;
 }
+
+#service-title h6{
+    font-size: 90%;
+}
+
+
 #start-banner{
     border-radius: 0px 0px 50px 0px;
 }
