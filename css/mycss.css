@@ -70,6 +70,8 @@ nav #menu-list{
 nav #menu-list a h6:hover{
     color: #ffc25d;
 }
+
+.contactus-font,
  .aboutus-font {
      font-size: 230%;
  }
@@ -79,6 +81,10 @@ nav #menu-list a h6:hover{
  .plans-font{
      font-size: 230%;
  }
+  .review-font{
+    font-size: 200%;
+  }
+
 .plan-details li{
     margin-top:12px;
     list-style-image: url('../images/Layer 9.png');
