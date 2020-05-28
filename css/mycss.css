@@ -1,0 +1,153 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.bg-dark2{
+    background-color: #333647;
+    color:#fff;
+}
+.bg-dark3{
+    background-color: #252734;
+    color:#fff;
+}
+.text-dark2{
+    color:#333647;
+}
+.bg-warning2{
+    background-color:#ffc25d;
+    color:#333647;
+}
+.text-warning2{
+    color:#ffc25d;
+}
+.banner-img1{
+    height: 350px;
+    width:auto;
+    background-image: url('../images/Artboard 1.png');
+    background-position: right;
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+}
+.banner-img2{
+    height:350px;
+    width:350px;
+    left:-160px;
+    top:-220px;
+    background-image: url('../images/banner1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn-chooseplan{
+    background-color: transparent;
+    border:2px solid #333647;
+}
+.btn-chooseplan:hover{
+    background-color: #333647;
+    color:#fff;
+}
+#start-banner{
+    border-radius: 0px 0px 50px 0px;
+}
+nav #menu:hover{
+    opacity: 0.65;
+}
+nav #menu:focus{
+    outline: none;
+    box-shadow: none;
+}
+nav #menu-list{
+    display:none;
+}
+nav #menu-list a h6:hover{
+    color: #ffc25d;
+}
+.plan-details li{
+    margin-top:12px;
+    list-style-image: url('../images/Layer 9.png');
+}
+.plan-details li.not_available {
+    margin-top: 12px;
+    list-style-image: url('../images/Layer 91.png');
+}
+.contactUs form ::placeholder{
+    color:#fff;
+}
+.contactUs form .form-control{
+    background-color: #252734;
+    border-color:#252734;
+    height: 50px;
+    color:#fff;
+    padding: 10px 20px;
+    opacity: 0.8;
+}
+.contactUs form textarea{
+    border-radius: 20px;
+    outline: none;
+    border:none;
+    resize: none;
+    padding: 10px 20px;
+}
+.contactUs form select option{
+    color:#333647;
+}
+.contactUs form .form-control:focus{
+    box-shadow: none;
+    opacity: 1;
+}
+.hover-me,
+.hover-me-sm {
+    transition: transform .3s cubic-bezier(.34, 2, .6, 1), box-shadow .2s ease, -webkit-transform .3s cubic-bezier(.34, 2, .6, 1);
+}
+
+.hover-me:hover {
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, .12), 0 2px 2px 0 rgba(0, 0, 0, .08);
+}
+
+.hover-me-sm:hover {
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, .12), 0 1px 1px 0 rgba(0, 0, 0, .08);
+}
+
+.hover-me:active {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    box-shadow: none;
+}
+
+.owl-carousel button.owl-dot{
+    outline:none;
+}
+.nice-select{
+    border-radius: 30px;
+    margin-bottom: 16px;
+}
+.nice-select .current{
+    color:#fff!important;
+}
+.nice-select .list {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: none;
+    border: 1px solid #d1d1d1;
+
+}
+
+.nice-select .option.selected.focus {
+    background-color: #f3f4f7;
+}
+
+.nice-select:after {
+    border-bottom: 3px solid #999;
+    border-right: 3px solid #999;
+    height: 8px;
+    right: 15px;
+    width: 8px;
+}
+@media(max-width:992px){
+    #start-banner{
+        border-radius: 0px;
+    }
+}
