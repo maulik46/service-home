@@ -52,7 +52,9 @@
 #service-title h6{
     font-size: 90%;
 }
-
+#services .badge-pill{
+    font-size: 90%;
+}
 
 #start-banner{
     border-radius: 0px 0px 50px 0px;
