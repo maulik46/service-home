@@ -37,6 +37,9 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.big-title{
+    font-size: 280%;
+}
 .btn-chooseplan{
     background-color: transparent;
     border:2px solid #333647;
